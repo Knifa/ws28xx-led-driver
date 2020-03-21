@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO3400A
+D 30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf
+$ENDCMP
+#
+#End Doc Library
