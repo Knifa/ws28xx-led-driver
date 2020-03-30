@@ -6,4 +6,10 @@ K N-Channel MOSFET
 F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf
 $ENDCMP
 #
+$CMP PI4ULS5V201
+D 1-Bit Bi-directional Level Shifter with Automatic Sensing, SOT-23-6
+K Level-Shifter CMOS-TTL-Translation
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-PI4ULS5V201TAEX_C181736.pdf
+$ENDCMP
+#
 #End Doc Library
