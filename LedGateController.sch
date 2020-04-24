@@ -27,95 +27,72 @@ $EndComp
 $Comp
 L SamacSys_Parts:MT3608 U2
 U 1 1 5E743C51
-P 2200 3300
-F 0 "U2" H 2700 2835 50  0000 C CNN
-F 1 "MT3608" H 2700 2926 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3050 3400 50  0001 L CNN
-F 3 "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf" H 3050 3300 50  0001 L CNN
-F 4 "High Efficiency 1.2MHz 2A Step Up Converter" H 3050 3200 50  0001 L CNN "Description"
-F 5 "1.45" H 3050 3100 50  0001 L CNN "Height"
-F 6 "Aerosemi" H 3050 3000 50  0001 L CNN "Manufacturer_Name"
-F 7 "MT3608" H 3050 2900 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 3050 2800 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 3050 2700 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 3050 2600 50  0001 L CNN "RS Part Number"
-F 11 "" H 3050 2500 50  0001 L CNN "RS Price/Stock"
-F 12 "https://lcsc.com/product-detail/DC-DC-Converters_MT3608_C84817.html" H 2200 3300 50  0001 C CNN "LCSC Part"
-	1    2200 3300
+P 2350 3300
+F 0 "U2" H 2850 2835 50  0000 C CNN
+F 1 "MT3608" H 2850 2926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3200 3400 50  0001 L CNN
+F 3 "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf" H 3200 3300 50  0001 L CNN
+F 4 "High Efficiency 1.2MHz 2A Step Up Converter" H 3200 3200 50  0001 L CNN "Description"
+F 5 "1.45" H 3200 3100 50  0001 L CNN "Height"
+F 6 "Aerosemi" H 3200 3000 50  0001 L CNN "Manufacturer_Name"
+F 7 "MT3608" H 3200 2900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3200 2800 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3200 2700 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3200 2600 50  0001 L CNN "RS Part Number"
+F 11 "" H 3200 2500 50  0001 L CNN "RS Price/Stock"
+F 12 "https://lcsc.com/product-detail/DC-DC-Converters_MT3608_C84817.html" H 2350 3300 50  0001 C CNN "LCSC Part"
+	1    2350 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5E7606C1
-P 2750 2900
-F 0 "R3" H 2680 2854 50  0000 R CNN
-F 1 "15K" H 2680 2945 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 2900 50  0001 C CNN
-F 3 "~" H 2750 2900 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1502T5E_C17475.html/?href=jlc-SMT" H 2750 2900 50  0001 C CNN "LCSC Part"
-	1    2750 2900
+P 2900 2900
+F 0 "R3" H 2830 2854 50  0000 R CNN
+F 1 "15K" H 2830 2945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2830 2900 50  0001 C CNN
+F 3 "~" H 2900 2900 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1502T5E_C17475.html/?href=jlc-SMT" H 2900 2900 50  0001 C CNN "LCSC Part"
+	1    2900 2900
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 5E761BF6
-P 2750 3300
-F 0 "R4" H 2680 3254 50  0000 R CNN
-F 1 "110K" H 2680 3345 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 3300 50  0001 C CNN
-F 3 "~" H 2750 3300 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1103T5E_C17422.html/?href=jlc-SMT" H 2750 3300 50  0001 C CNN "LCSC Part"
-	1    2750 3300
+P 2900 3300
+F 0 "R4" H 2830 3254 50  0000 R CNN
+F 1 "110K" H 2830 3345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2830 3300 50  0001 C CNN
+F 3 "~" H 2900 3300 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1103T5E_C17422.html/?href=jlc-SMT" H 2900 3300 50  0001 C CNN "LCSC Part"
+	1    2900 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Schottky D1
 U 1 1 5E74C4C5
-P 2500 3700
-F 0 "D1" H 2500 3484 50  0000 C CNN
-F 1 "SS22" H 2500 3575 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 2500 3700 50  0001 C CNN
-F 3 "~" H 2500 3700 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS22_C64989.html/?href=jlc-SMT" H 2500 3700 50  0001 C CNN "LCSC Part"
-	1    2500 3700
+P 2650 3700
+F 0 "D1" H 2650 3484 50  0000 C CNN
+F 1 "SS22" H 2650 3575 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 2650 3700 50  0001 C CNN
+F 3 "~" H 2650 3700 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MDD-Microdiode-Electronics-SS22_C64989.html/?href=jlc-SMT" H 2650 3700 50  0001 C CNN "LCSC Part"
+	1    2650 3700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:L L1
 U 1 1 5E747947
-P 1700 3700
-F 0 "L1" V 1890 3700 50  0000 C CNN
-F 1 "22u" V 1799 3700 50  0000 C CNN
-F 2 "Inductor_SMD:L_10.4x10.4_H4.8" H 1700 3700 50  0001 C CNN
-F 3 "~" H 1700 3700 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Power-Inductors_TDG-TMAX-1040-220-M_C429809.html" V 1700 3700 50  0001 C CNN "LCSC Part"
-	1    1700 3700
+P 1850 3700
+F 0 "L1" V 2040 3700 50  0000 C CNN
+F 1 "22u" V 1949 3700 50  0000 C CNN
+F 2 "Inductor_SMD:L_10.4x10.4_H4.8" H 1850 3700 50  0001 C CNN
+F 3 "~" H 1850 3700 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Power-Inductors_TDG-TMAX-1040-220-M_C429809.html" V 1850 3700 50  0001 C CNN "LCSC Part"
+	1    1850 3700
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C2
-U 1 1 5E746CE4
-P 850 3350
-F 0 "C2" H 965 3396 50  0000 L CNN
-F 1 "22u" H 965 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 888 3200 50  0001 C CNN
-F 3 "~" H 850 3350 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html/?href=jlc-SMT" H 850 3350 50  0001 C CNN "LCSC Part"
-	1    850  3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5E74EBC7
-P 850 3500
-F 0 "#PWR02" H 850 3250 50  0001 C CNN
-F 1 "GND" H 855 3327 50  0001 C CNN
-F 2 "" H 850 3500 50  0001 C CNN
-F 3 "" H 850 3500 50  0001 C CNN
-	1    850  3500
-	1    0    0    -1  
-$EndComp
-Text Notes 1100 2750 0    100  ~ 0
+Text Notes 1250 2750 0    100  ~ 0
 LED Supply (5V)
 $Comp
 L power:+BATT #PWR030
@@ -140,11 +117,11 @@ F 3 "~" H 10500 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1150 3200 1200 3200
-Connection ~ 1150 3200
-Connection ~ 2250 3700
+	1300 3200 1350 3200
+Connection ~ 1300 3200
+Connection ~ 2400 3700
 Wire Wire Line
-	850  3200 1150 3200
+	1000 3200 1300 3200
 Wire Wire Line
 	1250 6300 1200 6300
 Wire Wire Line
@@ -287,7 +264,7 @@ Wire Wire Line
 	2650 6800 2600 6800
 Wire Wire Line
 	2650 6900 2600 6900
-Text Label 2650 6100 0    50   ~ 0
+Text Label 2650 6500 0    50   ~ 0
 BATT_ADC
 Wire Wire Line
 	2600 6100 2650 6100
@@ -302,51 +279,28 @@ F 3 "" H 4150 5850 50  0001 C CNN
 	1    4150 5850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5EDE4CD5
-P 3900 5850
-F 0 "SW1" H 3900 6135 50  0000 C CNN
-F 1 "BUTTON" H 3900 6044 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3900 6050 50  0001 C CNN
-F 3 "~" H 3900 6050 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS665CJ_C393938.html" H 3900 5850 50  0001 C CNN "LCSC Part"
-	1    3900 5850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 6200 2650 6200
-Text Label 2650 6200 0    50   ~ 0
+Text Label 2650 6400 0    50   ~ 0
 BUTTON
 Text Label 3650 5850 2    50   ~ 0
 BUTTON
 Wire Wire Line
-	2650 3700 2750 3700
+	2800 3700 2900 3700
 Wire Wire Line
-	2750 3450 2750 3700
-Connection ~ 2750 3700
+	2900 3450 2900 3700
+Connection ~ 2900 3700
 Wire Wire Line
-	2750 3100 2750 3150
+	2900 3100 2900 3150
 Wire Wire Line
-	2200 3100 2750 3100
+	2350 3100 2900 3100
 Wire Wire Line
-	2750 3100 2750 3050
-Connection ~ 2750 3100
+	2900 3100 2900 3050
+Connection ~ 2900 3100
 Text Notes 3650 5500 0    100  ~ 0
 Button
 Text Notes 1250 5200 0    100  ~ 0
 MCU
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5F0C870F
-P 2750 3100
-F 0 "TP3" V 2704 3288 50  0000 L CNN
-F 1 "5V_FB" V 2800 3300 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 2950 3100 50  0001 C CNN
-F 3 "~" H 2950 3100 50  0001 C CNN
-	1    2750 3100
-	0    1    1    0   
-$EndComp
 Text Label 2650 7100 0    50   ~ 0
 SWDIO
 Text Label 2650 7200 0    50   ~ 0
@@ -355,8 +309,6 @@ Wire Wire Line
 	2600 7100 2650 7100
 Wire Wire Line
 	2650 7200 2600 7200
-Text Label 3900 4750 2    50   ~ 0
-SWDIO
 $Comp
 L power:+3V3 #PWR015
 U 1 1 5F189137
@@ -399,20 +351,16 @@ Wire Wire Line
 	2600 6500 2650 6500
 Wire Wire Line
 	2650 6600 2600 6600
-Text Label 2650 6300 0    50   ~ 0
+Text Label 2650 6100 0    50   ~ 0
 LED_EN
-Text Label 2650 6500 0    50   ~ 0
-PA4
+Text Label 2650 6300 0    50   ~ 0
+PA2
 Text Label 2650 6600 0    50   ~ 0
 PA5
-Text Label 2650 7000 0    50   ~ 0
-PA10
 Wire Wire Line
 	2600 7000 2650 7000
-Text Label 2650 6400 0    50   ~ 0
-PA3
-Text Label 3900 4650 2    50   ~ 0
-SWDCLK
+Text Label 2650 6200 0    50   ~ 0
+PA1
 Text Notes 4050 4300 2    100  ~ 0
 SWD
 Wire Wire Line
@@ -431,12 +379,10 @@ $EndComp
 Text Notes 3635 2763 0    100  ~ 0
 MCU Supply (3.3V)
 NoConn ~ 1600 7200
-Text Label 2650 6900 0    50   ~ 0
+Text Label 2650 7000 0    50   ~ 0
 LED_DATA_3V3
 Text Label 2650 6700 0    50   ~ 0
 PA6
-Text Label 2650 6800 0    50   ~ 0
-PA7
 $Comp
 L power:GND #PWR031
 U 1 1 5E7B9E6E
@@ -572,26 +518,6 @@ F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0
 	1    6950 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 2400 6950 2500
-Connection ~ 6950 2400
-Wire Wire Line
-	6950 2300 6950 2400
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5ECE9764
-P 7200 2400
-F 0 "TP7" H 7150 2600 50  0000 L CNN
-F 1 "BATT_ADC" H 7050 2700 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7400 2400 50  0001 C CNN
-F 3 "~" H 7400 2400 50  0001 C CNN
-	1    7200 2400
-	1    0    0    -1  
-$EndComp
-Text Label 7250 2400 0    50   ~ 0
-BATT_ADC
-Wire Wire Line
-	6950 2400 7200 2400
 $Comp
 L Device:R R10
 U 1 1 5ECE45F3
@@ -629,7 +555,7 @@ U 1 1 5E78E453
 P 4800 1900
 F 0 "TP4" H 4750 2150 50  0000 L CNN
 F 1 "-BATT_OUT" H 4600 2250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5000 1900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 5000 1900 50  0001 C CNN
 F 3 "~" H 5000 1900 50  0001 C CNN
 	1    4800 1900
 	-1   0    0    1   
@@ -671,8 +597,6 @@ F 3 "~" H 4150 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3950 4950 3900 4950
-Text Label 3900 4850 2    50   ~ 0
-NRST
 Wire Wire Line
 	3900 4850 3950 4850
 Wire Wire Line
@@ -712,13 +636,13 @@ F 3 "" H 4850 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1150 3100 1150 3200
+	1300 3100 1300 3200
 Wire Wire Line
-	1200 3100 1150 3100
+	1350 3100 1300 3100
 Wire Wire Line
-	1150 3700 1550 3700
+	1300 3700 1700 3700
 Wire Wire Line
-	1150 3200 1150 3700
+	1300 3200 1300 3700
 $Comp
 L power:+3V3 #PWR021
 U 1 1 5E89366D
@@ -1042,50 +966,50 @@ Wire Wire Line
 Wire Wire Line
 	2100 5350 2100 5900
 Wire Wire Line
-	2200 3300 2250 3300
+	2350 3300 2400 3300
 Wire Wire Line
-	2250 3300 2250 3700
+	2400 3300 2400 3700
 Wire Wire Line
-	2250 3700 2350 3700
+	2400 3700 2500 3700
 Wire Wire Line
-	1850 3700 2250 3700
+	2000 3700 2400 3700
 $Comp
 L power:+5V #PWR09
 U 1 1 5E850F8A
-P 2950 3700
-F 0 "#PWR09" H 2950 3550 50  0001 C CNN
-F 1 "+5V" V 2950 3816 50  0000 L CNN
-F 2 "" H 2950 3700 50  0001 C CNN
-F 3 "" H 2950 3700 50  0001 C CNN
-	1    2950 3700
+P 3100 3700
+F 0 "#PWR09" H 3100 3550 50  0001 C CNN
+F 1 "+5V" V 3100 3816 50  0000 L CNN
+F 2 "" H 3100 3700 50  0001 C CNN
+F 3 "" H 3100 3700 50  0001 C CNN
+	1    3100 3700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5E782F39
-P 2850 4000
-F 0 "#PWR08" H 2850 3750 50  0001 C CNN
-F 1 "GND" H 2855 3827 50  0001 C CNN
-F 2 "" H 2850 4000 50  0001 C CNN
-F 3 "" H 2850 4000 50  0001 C CNN
-	1    2850 4000
+P 3000 4000
+F 0 "#PWR08" H 3000 3750 50  0001 C CNN
+F 1 "GND" H 3005 3827 50  0001 C CNN
+F 2 "" H 3000 4000 50  0001 C CNN
+F 3 "" H 3000 4000 50  0001 C CNN
+	1    3000 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3700 2950 3700
+	3000 3700 3100 3700
 Wire Wire Line
-	2750 3700 2850 3700
-Connection ~ 2850 3700
+	2900 3700 3000 3700
+Connection ~ 3000 3700
 $Comp
 L Device:C C9
 U 1 1 5E745065
-P 2850 3850
-F 0 "C9" H 2965 3896 50  0000 L CNN
-F 1 "22u" H 2965 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2888 3700 50  0001 C CNN
-F 3 "~" H 2850 3850 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html/?href=jlc-SMT" H 2850 3850 50  0001 C CNN "LCSC Part"
-	1    2850 3850
+P 3000 3850
+F 0 "C9" H 3115 3896 50  0000 L CNN
+F 1 "22u" H 3115 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 3700 50  0001 C CNN
+F 3 "~" H 3000 3850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html/?href=jlc-SMT" H 3000 3850 50  0001 C CNN "LCSC Part"
+	1    3000 3850
 	1    0    0    -1  
 $EndComp
 Connection ~ 950  1900
@@ -1101,7 +1025,7 @@ U 1 1 5E7919AD
 P 900 1900
 F 0 "TP2" V 800 2050 50  0000 C CNN
 F 1 "-BATT_IN" V 700 2100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 1100 1900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1100 1900 50  0001 C CNN
 F 3 "~" H 1100 1900 50  0001 C CNN
 	1    900  1900
 	0    -1   -1   0   
@@ -1114,126 +1038,68 @@ U 1 1 5E79391F
 P 900 1300
 F 0 "TP1" V 1100 1400 50  0000 C CNN
 F 1 "+BATT_IN" V 1000 1450 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 1100 1300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 1100 1300 50  0001 C CNN
 F 3 "~" H 1100 1300 50  0001 C CNN
 	1    900  1300
 	0    -1   -1   0   
 $EndComp
-Text Label 3700 6500 2    50   ~ 0
-PA3
-Text Label 3700 6800 2    50   ~ 0
+Text Label 3700 6850 2    50   ~ 0
+PA1
+Text Label 3700 7050 2    50   ~ 0
 PA6
-$Comp
-L power:+5V #PWR012
-U 1 1 5E87B65B
-P 3550 7300
-F 0 "#PWR012" H 3550 7150 50  0001 C CNN
-F 1 "+5V" V 3550 7500 50  0000 C CNN
-F 2 "" H 3550 7300 50  0001 C CNN
-F 3 "" H 3550 7300 50  0001 C CNN
-	1    3550 7300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3750 6500 3700 6500
+	3750 6750 3700 6750
 Wire Wire Line
-	3550 7200 3750 7200
-Wire Wire Line
-	3550 7300 3750 7300
-Wire Wire Line
-	3750 6600 3700 6600
-Text Notes 3950 6350 2    100  ~ 0
+	3750 6850 3700 6850
+Text Notes 3950 6500 2    100  ~ 0
 GPIO
-Text Label 3700 6900 2    50   ~ 0
-PA7
 Wire Wire Line
-	3700 6700 3750 6700
+	3700 6950 3750 6950
 Wire Wire Line
-	3700 6800 3750 6800
+	3700 7050 3750 7050
 Wire Wire Line
-	3700 6900 3750 6900
-Wire Wire Line
-	3700 7000 3750 7000
-Text Label 3700 7000 2    50   ~ 0
-PA10
-Text Label 3700 6700 2    50   ~ 0
+	3700 7150 3750 7150
+Text Label 3700 6950 2    50   ~ 0
 PA5
-Text Label 3700 6600 2    50   ~ 0
-PA4
+Text Label 3700 6750 2    50   ~ 0
+PA2
 $Comp
-L Connector_Generic:Conn_01x10 J1
+L Connector_Generic:Conn_01x06 J1
 U 1 1 5F23017B
-P 3950 6900
-F 0 "J1" H 4100 6900 50  0000 C CNN
-F 1 "GPIO" H 4108 6798 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3950 6900 50  0001 C CNN
-F 3 "~" H 3950 6900 50  0001 C CNN
-	1    3950 6900
+P 3950 6850
+F 0 "J1" H 4100 6850 50  0000 C CNN
+F 1 "GPIO" H 4108 6748 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3950 6850 50  0001 C CNN
+F 3 "~" H 3950 6850 50  0001 C CNN
+	1    3950 6850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR011
-U 1 1 5F2CFCAD
-P 3550 7200
-F 0 "#PWR011" H 3550 7050 50  0001 C CNN
-F 1 "+3V3" V 3550 7300 50  0000 L CNN
-F 2 "" H 3550 7200 50  0001 C CNN
-F 3 "" H 3550 7200 50  0001 C CNN
-	1    3550 7200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3550 7400 3750 7400
 $Comp
 L power:GND #PWR06
 U 1 1 5E7B2B6E
-P 2350 3200
-F 0 "#PWR06" H 2350 2950 50  0001 C CNN
-F 1 "GND" H 2355 3027 50  0001 C CNN
-F 2 "" H 2350 3200 50  0001 C CNN
-F 3 "" H 2350 3200 50  0001 C CNN
-	1    2350 3200
+P 2500 3200
+F 0 "#PWR06" H 2500 2950 50  0001 C CNN
+F 1 "GND" H 2505 3027 50  0001 C CNN
+F 2 "" H 2500 3200 50  0001 C CNN
+F 3 "" H 2500 3200 50  0001 C CNN
+	1    2500 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 3200 2350 3200
+	2350 3200 2500 3200
 $Comp
 L power:GND #PWR07
 U 1 1 5E78385B
-P 2600 2750
-F 0 "#PWR07" H 2600 2500 50  0001 C CNN
-F 1 "GND" H 2605 2577 50  0001 C CNN
-F 2 "" H 2600 2750 50  0001 C CNN
-F 3 "" H 2600 2750 50  0001 C CNN
-	1    2600 2750
+P 2750 2750
+F 0 "#PWR07" H 2750 2500 50  0001 C CNN
+F 1 "GND" H 2755 2577 50  0001 C CNN
+F 2 "" H 2750 2750 50  0001 C CNN
+F 3 "" H 2750 2750 50  0001 C CNN
+	1    2750 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 2750 2600 2750
-$Comp
-L power:GND #PWR013
-U 1 1 5F2C4C2C
-P 3550 7400
-F 0 "#PWR013" H 3550 7150 50  0001 C CNN
-F 1 "GND" V 3550 7200 50  0001 C CNN
-F 2 "" H 3550 7400 50  0001 C CNN
-F 3 "" H 3550 7400 50  0001 C CNN
-	1    3550 7400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3550 7100 3750 7100
-$Comp
-L power:GND #PWR010
-U 1 1 5F2B25D2
-P 3550 7100
-F 0 "#PWR010" H 3550 6850 50  0001 C CNN
-F 1 "GND" V 3550 6900 50  0001 C CNN
-F 2 "" H 3550 7100 50  0001 C CNN
-F 3 "" H 3550 7100 50  0001 C CNN
-	1    3550 7100
-	0    1    1    0   
-$EndComp
+	2900 2750 2750 2750
 Wire Wire Line
 	1550 1300 1400 1300
 Wire Wire Line
@@ -1274,7 +1140,7 @@ U 1 1 5E973009
 P 6500 5000
 F 0 "TP6" H 6300 5150 50  0000 L CNN
 F 1 "LED_DATA_5V" H 6135 5217 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6700 5000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6700 5000 50  0001 C CNN
 F 3 "~" H 6700 5000 50  0001 C CNN
 	1    6500 5000
 	-1   0    0    1   
@@ -1288,7 +1154,7 @@ U 1 1 5E971288
 P 5600 5000
 F 0 "TP5" H 5650 5150 50  0000 L CNN
 F 1 "LED_DATA_3V3" H 5471 5221 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5800 5000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 5800 5000 50  0001 C CNN
 F 3 "~" H 5800 5000 50  0001 C CNN
 	1    5600 5000
 	-1   0    0    1   
@@ -1388,9 +1254,6 @@ Wire Wire Line
 Connection ~ 6550 2900
 Wire Wire Line
 	6550 2900 6950 2900
-Connection ~ 7200 2400
-Wire Wire Line
-	7200 2400 7250 2400
 Wire Wire Line
 	6500 1950 6550 1950
 $Comp
@@ -1416,9 +1279,9 @@ U 1 1 5E7F36D8
 P 6000 1700
 F 0 "SW2" H 6004 1423 50  0000 C CNN
 F 1 "ON_OFF" H 5992 1500 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 6000 1700 50  0001 C CNN
+F 2 "SamacSys_Parts:SK12D07VG4NSPA" H 6000 1700 50  0001 C CNN
 F 3 "~" H 6000 1700 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Toggle-Switches_C-K_OS102011MA1QS1_C-K-OS102011MA1QS1_C221530.html" H 6000 1700 50  0001 C CNN "LCSC Part"
+F 4 "https://lcsc.com/product-detail/Toggle-Switches_SHOU-HAN-SK12D07VG4_C393937.html" H 6000 1700 50  0001 C CNN "LCSC Part"
 	1    6000 1700
 	-1   0    0    1   
 $EndComp
@@ -1442,6 +1305,107 @@ F 4 "https://jlcpcb.com/parts/componentSearch?secondSortUuid=ac4c3bf204dc486cb0c
 	1    6550 2650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 850  3200 1    50   Input ~ 0
+Text GLabel 1000 3200 0    50   Input ~ 0
 +BATT_SW
+$Comp
+L power:GND #PWR02
+U 1 1 5E74EBC7
+P 1000 3550
+F 0 "#PWR02" H 1000 3300 50  0001 C CNN
+F 1 "GND" H 1005 3377 50  0001 C CNN
+F 2 "" H 1000 3550 50  0001 C CNN
+F 3 "" H 1000 3550 50  0001 C CNN
+	1    1000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3250 1000 3200
+$Comp
+L Device:C C2
+U 1 1 5E746CE4
+P 1000 3400
+F 0 "C2" H 1115 3446 50  0000 L CNN
+F 1 "22u" H 1115 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1038 3250 50  0001 C CNN
+F 3 "~" H 1000 3400 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html/?href=jlc-SMT" H 1000 3400 50  0001 C CNN "LCSC Part"
+	1    1000 3400
+	1    0    0    -1  
+$EndComp
+Text Label 7250 2400 0    50   ~ 0
+BATT_ADC
+Wire Wire Line
+	6950 2300 6950 2400
+Wire Wire Line
+	6950 2400 6950 2500
+Connection ~ 6950 2400
+Wire Wire Line
+	7200 2400 7250 2400
+Wire Wire Line
+	6950 2400 7200 2400
+Connection ~ 7200 2400
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5ECE9764
+P 7200 2400
+F 0 "TP7" H 7150 2600 50  0000 L CNN
+F 1 "BATT_ADC" H 7050 2700 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7400 2400 50  0001 C CNN
+F 3 "~" H 7400 2400 50  0001 C CNN
+	1    7200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F0C870F
+P 2900 3100
+F 0 "TP3" V 2854 3288 50  0000 L CNN
+F 1 "5V_FB" V 2950 3300 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3100 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+	1    2900 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5EDE4CD5
+P 3900 5850
+F 0 "SW1" H 3900 6135 50  0000 C CNN
+F 1 "BUTTON" H 3900 6044 50  0000 C CNN
+F 2 "LedGateController:TS-1009B-04326" H 3900 6050 50  0001 C CNN
+F 3 "~" H 3900 6050 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1009B-03826_C455249.html" H 3900 5850 50  0001 C CNN "LCSC Part"
+	1    3900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5F2B25D2
+P 3750 6650
+F 0 "#PWR010" H 3750 6400 50  0001 C CNN
+F 1 "GND" V 3750 6450 50  0001 C CNN
+F 2 "" H 3750 6650 50  0001 C CNN
+F 3 "" H 3750 6650 50  0001 C CNN
+	1    3750 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR011
+U 1 1 5F2CFCAD
+P 3700 7150
+F 0 "#PWR011" H 3700 7000 50  0001 C CNN
+F 1 "+3V3" V 3700 7250 50  0000 L CNN
+F 2 "" H 3700 7150 50  0001 C CNN
+F 3 "" H 3700 7150 50  0001 C CNN
+	1    3700 7150
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2650 6800
+NoConn ~ 2650 6900
+Text Label 3900 4650 2    50   ~ 0
+SWDIO
+Text Label 3900 4750 2    50   ~ 0
+SWDCLK
+Text Label 3900 4850 2    50   ~ 0
+NRST
 $EndSCHEMATC
