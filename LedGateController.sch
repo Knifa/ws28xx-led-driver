@@ -312,13 +312,13 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR015
 U 1 1 5F189137
-P 3900 4500
-F 0 "#PWR015" H 3900 4350 50  0001 C CNN
-F 1 "+3V3" H 3769 4652 50  0000 L CNN
-F 2 "" H 3900 4500 50  0001 C CNN
-F 3 "" H 3900 4500 50  0001 C CNN
-	1    3900 4500
-	1    0    0    -1  
+P 3900 4850
+F 0 "#PWR015" H 3900 4700 50  0001 C CNN
+F 1 "+3V3" V 3900 4950 50  0000 L CNN
+F 2 "" H 3900 4850 50  0001 C CNN
+F 3 "" H 3900 4850 50  0001 C CNN
+	1    3900 4850
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3900 4650 3950 4650
@@ -954,8 +954,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 3500 4300 3550
 Wire Wire Line
-	3900 4550 3900 4500
-Wire Wire Line
 	3900 5000 3900 4950
 Wire Wire Line
 	3700 5850 3650 5850
@@ -1043,9 +1041,9 @@ F 3 "~" H 1100 1300 50  0001 C CNN
 	1    900  1300
 	0    -1   -1   0   
 $EndComp
-Text Label 3700 6850 2    50   ~ 0
+Text Label 3700 6950 2    50   ~ 0
 PA1
-Text Label 3700 7050 2    50   ~ 0
+Text Label 3700 7150 2    50   ~ 0
 PA6
 Wire Wire Line
 	3750 6750 3700 6750
@@ -1059,9 +1057,9 @@ Wire Wire Line
 	3700 7050 3750 7050
 Wire Wire Line
 	3700 7150 3750 7150
-Text Label 3700 6950 2    50   ~ 0
+Text Label 3700 7050 2    50   ~ 0
 PA5
-Text Label 3700 6750 2    50   ~ 0
+Text Label 3700 6850 2    50   ~ 0
 PA2
 $Comp
 L Connector_Generic:Conn_01x06 J1
@@ -1389,23 +1387,23 @@ F 3 "" H 3750 6650 50  0001 C CNN
 	1    3750 6650
 	0    1    1    0   
 $EndComp
+NoConn ~ 2650 6800
+NoConn ~ 2650 6900
 $Comp
 L power:+3V3 #PWR011
 U 1 1 5F2CFCAD
-P 3700 7150
-F 0 "#PWR011" H 3700 7000 50  0001 C CNN
-F 1 "+3V3" V 3700 7250 50  0000 L CNN
-F 2 "" H 3700 7150 50  0001 C CNN
-F 3 "" H 3700 7150 50  0001 C CNN
-	1    3700 7150
+P 3700 6750
+F 0 "#PWR011" H 3700 6600 50  0001 C CNN
+F 1 "+3V3" V 3700 6850 50  0000 L CNN
+F 2 "" H 3700 6750 50  0001 C CNN
+F 3 "" H 3700 6750 50  0001 C CNN
+	1    3700 6750
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 2650 6800
-NoConn ~ 2650 6900
+Text Label 3900 4750 2    50   ~ 0
+NRST
+Text Label 3900 4550 2    50   ~ 0
+SWDCLK
 Text Label 3900 4650 2    50   ~ 0
 SWDIO
-Text Label 3900 4750 2    50   ~ 0
-SWDCLK
-Text Label 3900 4850 2    50   ~ 0
-NRST
 $EndSCHEMATC
