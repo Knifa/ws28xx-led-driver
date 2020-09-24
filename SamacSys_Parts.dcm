@@ -27,8 +27,17 @@ $ENDCMP
 #
 $CMP SK12D07VG4NSPA
 D Slide Switches Miniature Slide Switch
-K
 F https://www.ckswitches.com/media/1432/sk.pdf
+$ENDCMP
+#
+$CMP TP4056
+D 1A Standalone Linear Li-lon Battery Charger, SOP-8
+F https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf
+$ENDCMP
+#
+$CMP U254-051T-4BHJ25-S2S
+D USB Connectors SMD RoHS
+F https://datasheet.lcsc.com/szlcsc/2002271812_XKB-Enterprise-U254-051T-4BHJ25-S2S_C319163.pdf
 $ENDCMP
 #
 #End Doc Library
