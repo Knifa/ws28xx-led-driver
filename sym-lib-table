@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name MiscParts)(type Legacy)(uri ${KIPRJMOD}/MiscParts.lib)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name LedGateController-rescue)(type Legacy)(uri ${KIPRJMOD}/LedGateController-rescue.lib)(options "")(descr ""))
 )
