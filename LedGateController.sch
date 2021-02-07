@@ -74,9 +74,9 @@ F 3 "~" H 10500 750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2275 3550 2325 3550
-Text Label 4375 8975 0    50   ~ 0
+Text Label 3025 8575 2    50   ~ 0
 BATT_SENSE
-Text Label 4375 9475 0    50   ~ 0
+Text Label 3025 9775 2    50   ~ 0
 BUTTON
 Wire Wire Line
 	3875 3650 3875 3550
@@ -102,14 +102,10 @@ Wire Wire Line
 	10925 10575 10975 10575
 Wire Wire Line
 	10925 10675 10975 10675
-Wire Wire Line
-	4325 8975 4375 8975
-Text Label 4375 8675 0    50   ~ 0
+Text Label 4325 8675 0    50   ~ 0
 LED_EN
 Text Notes 11075 10225 2    100  ~ 0
 SWD
-Wire Wire Line
-	10925 10475 10975 10475
 $Comp
 L power:GND #PWR016
 U 1 1 5F183701
@@ -121,7 +117,7 @@ F 3 "" H 10925 10925 50  0001 C CNN
 	1    10925 10925
 	1    0    0    -1  
 $EndComp
-Text Label 4375 9575 0    50   ~ 0
+Text Label 4325 8775 0    50   ~ 0
 LED_DATA_3V3
 $Comp
 L power:GND #PWR031
@@ -133,18 +129,6 @@ F 2 "" H 10900 750 50  0001 C CNN
 F 3 "" H 10900 750 50  0001 C CNN
 	1    10900 750 
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5E6D2A87
-P 950 1650
-F 0 "BT1" H 1084 1729 50  0000 L CNN
-F 1 "LI_ON" H 1050 1650 50  0000 L CNN
-F 2 "SamacSys_Parts:1043P" V 950 1710 50  0001 C CNN
-F 3 "~" V 950 1710 50  0001 C CNN
-F 4 "https://www.digikey.co.uk/product-detail/en/keystone-electronics/1043P/36-1043P-ND/4499388" H 950 1650 50  0001 C CNN "Digikey Part"
-	1    950  1650
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4250 1550 4250 1700
@@ -158,9 +142,6 @@ Wire Wire Line
 	2950 1200 4350 1200
 Wire Wire Line
 	4350 1200 4350 2000
-Wire Wire Line
-	1950 1400 1950 1900
-Connection ~ 1950 1900
 $Comp
 L SamacSys_Parts:DW01 U3
 U 1 1 5E7017A7
@@ -180,10 +161,6 @@ F 11 "https://lcsc.com/product-detail/MOSFET_DW01_C181096.html" H 2950 1400 50  
 	1    2950 1400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1550 1900 1950 1900
-Wire Wire Line
-	1950 1900 3050 1900
 Wire Wire Line
 	2950 1400 2950 2000
 Wire Wire Line
@@ -224,12 +201,12 @@ Connection ~ 1550 1900
 $Comp
 L power:GND #PWR020
 U 1 1 5E938DC2
-P 5100 1900
-F 0 "#PWR020" H 5100 1650 50  0001 C CNN
-F 1 "GND" V 5105 1772 50  0001 R CNN
-F 2 "" H 5100 1900 50  0001 C CNN
-F 3 "" H 5100 1900 50  0001 C CNN
-	1    5100 1900
+P 4700 1900
+F 0 "#PWR020" H 4700 1650 50  0001 C CNN
+F 1 "GND" V 4705 1772 50  0001 R CNN
+F 2 "" H 4700 1900 50  0001 C CNN
+F 3 "" H 4700 1900 50  0001 C CNN
+	1    4700 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -268,9 +245,6 @@ F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0
 	1    9650 2425
 	1    0    0    -1  
 $EndComp
-Connection ~ 4800 1900
-Wire Wire Line
-	4500 1900 4800 1900
 Connection ~ 4500 1900
 Wire Wire Line
 	4500 1900 4500 1750
@@ -285,19 +259,6 @@ Wire Wire Line
 Connection ~ 950  1300
 Wire Wire Line
 	950  1300 950  1050
-Wire Wire Line
-	950  1300 950  1450
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5E78E453
-P 4800 1900
-F 0 "TP4" H 4750 2150 50  0000 L CNN
-F 1 "-BATT_OUT" H 4600 2250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5000 1900 50  0001 C CNN
-F 3 "~" H 5000 1900 50  0001 C CNN
-	1    4800 1900
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+BATT #PWR03
 U 1 1 5E72564C
@@ -584,52 +545,12 @@ Wire Wire Line
 	10925 10925 10925 10875
 Wire Wire Line
 	3325 3450 3375 3450
-Connection ~ 950  1900
 Wire Wire Line
 	950  1900 950  2200
 Wire Wire Line
-	950  1900 950  1750
-Wire Wire Line
 	950  1900 1550 1900
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5E7919AD
-P 900 1900
-F 0 "TP2" V 800 2050 50  0000 C CNN
-F 1 "-BATT_IN" V 700 2100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1100 1900 50  0001 C CNN
-F 3 "~" H 1100 1900 50  0001 C CNN
-	1    900  1900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	900  1300 950  1300
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5E79391F
-P 900 1300
-F 0 "TP1" V 1100 1400 50  0000 C CNN
-F 1 "+BATT_IN" V 1000 1450 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1100 1300 50  0001 C CNN
-F 3 "~" H 1100 1300 50  0001 C CNN
-	1    900  1300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9950 10525 9900 10525
-Text Notes 10150 10275 2    100  ~ 0
-GPIO
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 5F23017B
-P 10150 10625
-F 0 "J1" H 10300 10625 50  0000 C CNN
-F 1 "GPIO" H 10308 10523 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10150 10625 50  0001 C CNN
-F 3 "~" H 10150 10625 50  0001 C CNN
-	1    10150 10625
-	1    0    0    -1  
-$EndComp
+	850  1300 950  1300
 Wire Wire Line
 	1550 1300 1400 1300
 Wire Wire Line
@@ -662,8 +583,6 @@ F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    1550 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	900  1900 950  1900
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5E973009
@@ -705,8 +624,6 @@ F 4 "https://lcsc.com/product-detail/Solid-Polymer-Electrolytic-Capacitor_Lelon-
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 1900 5100 1900
-Wire Wire Line
 	9225 2250 9225 2200
 $Comp
 L Transistor_FET:AO3401A Q3
@@ -746,58 +663,9 @@ F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 $EndComp
 Text Label 9975 2250 0    50   ~ 0
 BATT_SENSE
-Wire Wire Line
-	9925 2250 9975 2250
-Connection ~ 9925 2250
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5ECE9764
-P 9925 2250
-F 0 "TP7" H 9875 2450 50  0000 L CNN
-F 1 "BATT_SENSE" H 9675 2525 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10125 2250 50  0001 C CNN
-F 3 "~" H 10125 2250 50  0001 C CNN
-	1    9925 2250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5F0C870F
-P 3875 3650
-F 0 "TP3" V 3829 3838 50  0000 L CNN
-F 1 "5V_FB" V 3925 3850 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4075 3650 50  0001 C CNN
-F 3 "~" H 4075 3650 50  0001 C CNN
-	1    3875 3650
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5F2B25D2
-P 9950 10425
-F 0 "#PWR010" H 9950 10175 50  0001 C CNN
-F 1 "GND" V 9950 10225 50  0001 C CNN
-F 2 "" H 9950 10425 50  0001 C CNN
-F 3 "" H 9950 10425 50  0001 C CNN
-	1    9950 10425
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR011
-U 1 1 5F2CFCAD
-P 9900 10525
-F 0 "#PWR011" H 9900 10375 50  0001 C CNN
-F 1 "+3V3" V 9900 10625 50  0000 L CNN
-F 2 "" H 9900 10525 50  0001 C CNN
-F 3 "" H 9900 10525 50  0001 C CNN
-	1    9900 10525
-	0    -1   -1   0   
-$EndComp
 Text Label 10925 10675 2    50   ~ 0
 NRST
 Text Label 10925 10475 2    50   ~ 0
-SWCLK
-Text Label 10925 10575 2    50   ~ 0
 SWDIO
 $Comp
 L Jumper:SolderJumper_2_Open JP2
@@ -1252,8 +1120,6 @@ Wire Wire Line
 	9650 2250 9650 2225
 Wire Wire Line
 	9650 2250 9650 2275
-Wire Wire Line
-	9650 2250 9925 2250
 Text Label 4375 9975 0    50   ~ 0
 SWCLK
 Text Label 4375 9875 0    50   ~ 0
@@ -1262,14 +1128,6 @@ Text Label 7625 3925 0    50   ~ 0
 USBDM
 Connection ~ 7075 4225
 NoConn ~ 7375 4025
-Wire Wire Line
-	4325 9975 4375 9975
-Wire Wire Line
-	4325 9875 4375 9875
-Wire Wire Line
-	2925 7475 3025 7475
-Wire Wire Line
-	2225 7675 3025 7675
 Text Label 4375 9775 0    50   ~ 0
 USBDP
 $Comp
@@ -1563,26 +1421,15 @@ $EndComp
 Wire Wire Line
 	2300 6650 2625 6650
 Connection ~ 2300 6650
-Wire Wire Line
-	3925 7275 3825 7275
-Wire Wire Line
-	3825 7275 3725 7275
-Connection ~ 3825 7275
-Wire Wire Line
-	3725 7275 3625 7275
-Connection ~ 3725 7275
 Connection ~ 2950 6650
 Connection ~ 2625 6650
 Wire Wire Line
 	2625 6650 2950 6650
 Wire Wire Line
-	3925 6350 3925 7275
-Wire Wire Line
 	2950 6350 3425 6350
 Connection ~ 3425 6350
 Wire Wire Line
 	3425 6350 3925 6350
-Connection ~ 3925 7275
 $Comp
 L power:GND #PWR012
 U 1 1 60E6DD5C
@@ -1594,21 +1441,6 @@ F 3 "" H 3525 10300 50  0001 C CNN
 	1    3525 10300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3525 10275 3625 10275
-Connection ~ 3625 10275
-Wire Wire Line
-	3625 10275 3725 10275
-Connection ~ 3725 10275
-Wire Wire Line
-	3725 10275 3825 10275
-Wire Wire Line
-	3525 10275 3525 10300
-Connection ~ 3525 10275
-Wire Wire Line
-	4325 9575 4375 9575
-Wire Wire Line
-	4325 8675 4375 8675
 Text Label 2925 7275 1    50   ~ 0
 NRST
 Wire Wire Line
@@ -1730,39 +1562,6 @@ F 3 "" H 6925 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4325 9675 4375 9675
-Wire Wire Line
-	4325 9775 4375 9775
-Wire Wire Line
-	4325 9475 4375 9475
-NoConn ~ 3025 7875
-NoConn ~ 3025 7975
-NoConn ~ 3025 8175
-NoConn ~ 3025 8275
-NoConn ~ 3025 8375
-NoConn ~ 3025 8575
-NoConn ~ 3025 8675
-NoConn ~ 3025 8775
-NoConn ~ 3025 8875
-NoConn ~ 3025 8975
-NoConn ~ 3025 9075
-NoConn ~ 3025 9175
-NoConn ~ 3025 9275
-NoConn ~ 3025 9375
-NoConn ~ 3025 9475
-NoConn ~ 3025 9575
-NoConn ~ 3025 9675
-NoConn ~ 3025 9775
-NoConn ~ 3025 9875
-NoConn ~ 3025 9975
-NoConn ~ 3025 10075
-NoConn ~ 4325 10075
-NoConn ~ 4325 9175
-NoConn ~ 4325 9075
-NoConn ~ 4325 8875
-NoConn ~ 4325 8575
-NoConn ~ 3525 7275
-Wire Wire Line
 	7075 4225 8000 4225
 Connection ~ 8000 4225
 $Comp
@@ -1809,10 +1608,8 @@ F 3 "~" H 11700 750 50  0001 C CNN
 	1    11700 750 
 	-1   0    0    1   
 $EndComp
-Text Label 4375 8775 0    50   ~ 0
+Text Label 3025 9875 2    50   ~ 0
 PWR_LATCH
-Wire Wire Line
-	4325 8775 4375 8775
 $Comp
 L Transistor_FET:AO3401A Q4
 U 1 1 60FBAC94
@@ -2036,10 +1833,8 @@ Wire Wire Line
 Wire Wire Line
 	7700 5675 7075 5675
 Connection ~ 8800 3975
-Text Label 4375 9375 0    50   ~ 0
+Text Label 4325 9375 0    50   ~ 0
 VBUS_SENSE
-Wire Wire Line
-	4325 9375 4375 9375
 Text Label 8900 4100 0    50   ~ 0
 VBUS_SENSE
 Wire Wire Line
@@ -2134,21 +1929,8 @@ F 3 "~" H 7225 3775 50  0001 C CNN
 	1    7075 3825
 	1    0    0    -1  
 $EndComp
-$Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U1
-U 1 1 5F19023B
-P 3725 8775
-F 0 "U1" H 3725 8900 50  0000 C CNN
-F 1 "STM32F103C8Tx" H 3700 8800 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3125 7375 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 3725 8775 50  0001 C CNN
-	1    3725 8775
-	1    0    0    -1  
-$EndComp
-Text Label 4375 9275 0    50   ~ 0
+Text Label 4325 9475 0    50   ~ 0
 CHARGE_EN
-Wire Wire Line
-	4325 9275 4375 9275
 $Comp
 L power:GND #PWR039
 U 1 1 5FC6A6A5
@@ -2160,4 +1942,136 @@ F 3 "" H 2475 5525 50  0001 C CNN
 	1    2475 5525
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 1900 3050 1900
+Wire Wire Line
+	1550 1900 1950 1900
+Connection ~ 1950 1900
+Wire Wire Line
+	1950 1400 1950 1900
+Text Label 950  2300 2    50   ~ 0
+-BATT
+Wire Wire Line
+	950  2200 950  2300
+Connection ~ 950  2200
+Text Label 12150 675  2    50   ~ 0
+-BATT
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5FFE8D0C
+P 12150 675
+F 0 "#FLG0103" H 12150 750 50  0001 C CNN
+F 1 "PWR_FLAG" H 12150 848 50  0000 C CNN
+F 2 "" H 12150 675 50  0001 C CNN
+F 3 "~" H 12150 675 50  0001 C CNN
+	1    12150 675 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5FFF6910
+P 650 1900
+F 0 "J7" H 568 1675 50  0000 C CNN
+F 1 "-BATT" H 568 1766 50  0000 C CNN
+F 2 "LedGateController:Battery Pad" H 650 1900 50  0001 C CNN
+F 3 "~" H 650 1900 50  0001 C CNN
+	1    650  1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5FFF5C3B
+P 650 1300
+F 0 "J6" H 568 1075 50  0000 C CNN
+F 1 "+BATT" H 568 1166 50  0000 C CNN
+F 2 "LedGateController:Battery Pad" H 650 1300 50  0001 C CNN
+F 3 "~" H 650 1300 50  0001 C CNN
+	1    650  1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  1900 850  1900
+Connection ~ 950  1900
+Text Label 3025 9975 2    50   ~ 0
+CHARGE_PROG_500MA
+Text Label 3025 10075 2    50   ~ 0
+CHARGE_PROG_1A
+Wire Wire Line
+	3725 10275 3825 10275
+Connection ~ 3725 10275
+Wire Wire Line
+	3625 10275 3725 10275
+Connection ~ 3625 10275
+Connection ~ 3525 10275
+Wire Wire Line
+	3525 10275 3525 10300
+Wire Wire Line
+	3525 10275 3625 10275
+Connection ~ 3925 7275
+Wire Wire Line
+	3925 6350 3925 7275
+Connection ~ 3825 7275
+Wire Wire Line
+	3925 7275 3825 7275
+Connection ~ 3725 7275
+Wire Wire Line
+	3825 7275 3725 7275
+Wire Wire Line
+	3725 7275 3625 7275
+NoConn ~ 3525 7275
+NoConn ~ 3025 7975
+NoConn ~ 3025 7875
+NoConn ~ 3025 8375
+NoConn ~ 3025 8275
+NoConn ~ 3025 8175
+NoConn ~ 3025 9475
+NoConn ~ 3025 9375
+NoConn ~ 3025 9275
+NoConn ~ 3025 9175
+NoConn ~ 3025 9075
+NoConn ~ 3025 8975
+NoConn ~ 3025 8875
+NoConn ~ 3025 8775
+NoConn ~ 3025 9675
+NoConn ~ 3025 9575
+NoConn ~ 3025 8675
+NoConn ~ 4325 9175
+NoConn ~ 4325 9075
+NoConn ~ 4325 8975
+NoConn ~ 4325 8875
+NoConn ~ 4325 10075
+Wire Wire Line
+	4325 9975 4375 9975
+Wire Wire Line
+	4325 9875 4375 9875
+Wire Wire Line
+	4325 9775 4375 9775
+Wire Wire Line
+	4325 9675 4375 9675
+NoConn ~ 4325 9275
+NoConn ~ 4325 8575
+Wire Wire Line
+	2925 7475 3025 7475
+Wire Wire Line
+	2225 7675 3025 7675
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U1
+U 1 1 5F19023B
+P 3725 8775
+F 0 "U1" H 3725 8900 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 3700 8800 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3125 7375 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 3725 8775 50  0001 C CNN
+	1    3725 8775
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4325 9575
+Wire Wire Line
+	10925 10475 10975 10475
+Text Label 10925 10575 2    50   ~ 0
+SWCLK
+Wire Wire Line
+	4500 1900 4700 1900
+Wire Wire Line
+	9650 2250 9975 2250
 $EndSCHEMATC
