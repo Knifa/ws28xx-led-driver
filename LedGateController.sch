@@ -102,7 +102,7 @@ Wire Wire Line
 	10925 10575 10975 10575
 Wire Wire Line
 	10925 10675 10975 10675
-Text Label 4325 8675 0    50   ~ 0
+Text Label 3025 9575 2    50   ~ 0
 LED_EN
 Text Notes 11075 10225 2    100  ~ 0
 SWD
@@ -939,6 +939,7 @@ F 0 "D4" V 7821 2179 50  0000 L CNN
 F 1 "D_x2_KCom_AAK" V 7730 2179 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7775 2100 50  0001 C CNN
 F 3 "~" H 7775 2100 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Diodes-General-Purpose_Nexperia-BAV74-215_C85396.html" V 7775 2100 50  0001 C CNN "LCSC Part"
 	1    7775 2100
 	0    -1   -1   0   
 $EndComp
@@ -1290,6 +1291,7 @@ F 0 "D3" V 1796 5229 50  0000 L CNN
 F 1 "D_x2_KCom_AAK" V 1705 5229 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1750 5150 50  0001 C CNN
 F 3 "~" H 1750 5150 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Diodes-General-Purpose_Nexperia-BAV74-215_C85396.html" V 1750 5150 50  0001 C CNN "LCSC Part"
 	1    1750 5150
 	0    -1   -1   0   
 $EndComp
@@ -1802,7 +1804,7 @@ L Device:R R24
 U 1 1 5FB31F35
 P 7250 5275
 F 0 "R24" V 7425 5325 50  0000 R CNN
-F 1 "250" V 7350 5350 50  0000 R CNN
+F 1 "220" V 7350 5350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7180 5275 50  0001 C CNN
 F 3 "~" H 7250 5275 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1500T5E_C17471.html/?href=jlc-SMT" H 7250 5275 50  0001 C CNN "LCSC Part"
@@ -1825,6 +1827,7 @@ F 8 "TP4056" H 6925 5275 50  0001 L CNN "Arrow Part Number"
 F 9 "" H 6925 5175 50  0001 L CNN "Arrow Price/Stock"
 F 10 "" H 6925 5075 50  0001 L CNN "Mouser Part Number"
 F 11 "" H 6925 4975 50  0001 L CNN "Mouser Price/Stock"
+F 12 "https://lcsc.com/product-detail/PMIC-Battery-Management_TPOWER-TP4056_C382139.html" H 5675 5775 50  0001 C CNN "LCSC Part"
 	1    5675 5775
 	1    0    0    1   
 $EndComp
@@ -1907,7 +1910,7 @@ L Device:R R8
 U 1 1 5E801C9D
 P 9225 2050
 F 0 "R8" H 9375 2100 50  0000 R CNN
-F 1 "250" H 9425 2025 50  0000 R CNN
+F 1 "220" H 9425 2025 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 9155 2050 50  0001 C CNN
 F 3 "~" H 9225 2050 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1500T5E_C17471.html/?href=jlc-SMT" H 9225 2050 50  0001 C CNN "LCSC Part"
@@ -1926,6 +1929,7 @@ F 0 "J4" H 7075 4275 50  0000 C CNN
 F 1 "USB_B_Micro" H 7075 4200 50  0000 C CNN
 F 2 "SamacSys_Parts:U254051T4BHJ25S2S" H 7225 3775 50  0001 C CNN
 F 3 "~" H 7225 3775 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/USB-Connectors_XKB-Connectivity-U254-051T-4BHJ25-F2S_C381143.html" H 7075 3825 50  0001 C CNN "LCSC"
 	1    7075 3825
 	1    0    0    -1  
 $EndComp
@@ -2033,7 +2037,6 @@ NoConn ~ 3025 8975
 NoConn ~ 3025 8875
 NoConn ~ 3025 8775
 NoConn ~ 3025 9675
-NoConn ~ 3025 9575
 NoConn ~ 3025 8675
 NoConn ~ 4325 9175
 NoConn ~ 4325 9075
@@ -2062,6 +2065,7 @@ F 0 "U1" H 3725 8900 50  0000 C CNN
 F 1 "STM32F103C8Tx" H 3700 8800 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3125 7375 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 3725 8775 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics-STM32F103C8T6_C8734.html" H 3725 8775 50  0001 C CNN "LCSC Part"
 	1    3725 8775
 	1    0    0    -1  
 $EndComp
@@ -2074,4 +2078,5 @@ Wire Wire Line
 	4500 1900 4700 1900
 Wire Wire Line
 	9650 2250 9975 2250
+NoConn ~ 4325 8675
 $EndSCHEMATC
