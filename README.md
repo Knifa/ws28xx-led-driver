@@ -1,6 +1,6 @@
 # ws28xx-led-driver
 
-![Rev 3](./media/rev3.jpg)
+![Rev 2](./media/rev2.jpg)
 
 This is a straightforward DIY WS28xx LED driver. It's got these features:
 
