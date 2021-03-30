@@ -10,3 +10,8 @@ This is a straightforward DIY WS28xx LED driver. It's got these features:
 - 5V 1.5Aish step-up for LED power.
 - Single button for soft-power and settings.
 - 0805 SMD components or thereabouts.
+
+## License
+
+- Firmware under [MIT License](./firmware/LICENSE.md).
+- Hardware under [CC-BY-SA-4.0](./hardware/LICENSE.md).
